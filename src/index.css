@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+.headInfo {
+  font-family: "product sans", Arial, Helvetica, sans-serif;
+  background-color: #2B2B2B;
+  transition: all 0.3s ease;
+color:#cbd5e1;
+}
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+img, video {
+    max-width: 100%;
+    height: auto;
+}
+
+.header nav a {
+  font-family: "product sans", sans-serif;
+  color: #2B2B2B;
+  outline: none;
+}
+
+.home section {
+  max-width: 50%;
+  min-width: 50%;
+}
+.homeInfo{
+  height: 840px;
+    width:  100%;
+    background-size: cover;
+    background-image: url(./Component//images/backroundimg.jpg);
+    background-position-y: -33px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+    z-index: 4;
+}
+.main-text {
+  font-family: "montserrat", Arial, Helvetica, sans-serif;
+  padding-top: 10%;
+}
+.text-indent {
+  text-indent: 30px;
+}
+.bg-primary {
+  background-color: #00CCC0;
+}
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+.mark-icon {
+  float: left;
+  position: relative;
+  top: -20px;
+}
+
+.featureBuildings {
+  position: relative;
+  z-index: 2;
+  align-items: center;
+  width: 100%;
+  height: 10px;
+  padding-top: 40px;
+}
+.featureBuildings img {
+  width: 160px;
+  transition: 0.5s ease;
+  filter: grayscale(50%);
+  cursor: pointer;
+  border-radius: 28px;
+}
+
+
+.featureBuildings img:hover{
+  transform: scale(1.5);
+  filter: grayscale(100%);
+}
+
+.home .homeBG {
+  background-image: url(./Component/images/HomeBG.jpg);
+  background-position: top;
+  background-size: cover;
+}
+
+/* tajriba section */
+.experience {
+  font-family: "product sans", Arial, Helvetica, sans-serif;
+}
+
+/* Xizmat section */
+.services {
+  font-family: "product sans", Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+  min-height: 400px;
+}
+.line-center {
+  width: 100px;
+  height: 4px;
+  background-color: #00CCC0;
+  margin: 0 auto;
+}
+.services .item {
+  width: 270px;
+  height: 270px;
+}
+.services .item img {
+  width: 100px;
+  height: 100px;
+}
